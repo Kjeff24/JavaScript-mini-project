@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    background-image: url(animeboy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    background-color: white;
+    align-self: flex-end;
+    margin: auto;
+    position: absolute;
+    top:auto;
+   left: 40px;
+   right: 40px;
+}
+
+.modal-content{
+   text-align:center;
+   width: 500px;
+   
+
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img-container::before {
+    content: "“";
+    width: 5px;
+    height: 5px;
+    font-size: 100px;
+    position: absolute;
+    color: rgb(0, 204, 255);
+}
+
+.img-container, h4, p {
+    margin: 5px 0;
+}
+
+.img-container {
+    width: 208px;
+    height: 200px;
+    display: flow-root;
+    background-color: rgb(0, 204, 255);
+    border-radius: 50%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p {
+    width: 40%;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.author, .job {
+    text-transform: uppercase;
+}
+
+.job{
+    color: rgb(0, 204, 255);
+    font-weight: 500;
+}
+
+button {
+    margin: 10px 5px 0 5px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+}
+
+button:hover{
+    transform: scale(1.07);
+    background: black;
+    color: white;
+}

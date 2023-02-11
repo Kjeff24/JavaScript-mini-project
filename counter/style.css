@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20vh 0 20vh 0;
+    display: grid;
+    place-items: center;
+    
+}
+
+h1{
+    margin: 0;
+}
+
+p {
+    margin: 5px 0 5px 0;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+
+button {
+    margin-right: 10px;
+    padding: 5px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}

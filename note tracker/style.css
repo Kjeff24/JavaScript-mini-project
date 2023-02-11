@@ -1,0 +1,37 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    min-width: 320px;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 90px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#save-el, #save-tab-el {
+    background: orange;
+    color: black;
+}
+
+#delete-el {
+    background: black;
+    color: orange;
+}
+
+ul {
+    font-size: 12px;
+}
